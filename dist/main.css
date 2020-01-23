@@ -1,0 +1,49 @@
+.form{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: white;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  z-index: 1;
+}
+
+.add-user-button-parent{
+  padding:20px;
+}
+
+.table-parent{
+  padding:20px;
+}
+
+.table-parent td{
+  cursor: pointer;
+}
+
+.input-parent{
+  display:flex;
+  align-items: center;
+}
+
+.form-header{
+  display:flex;
+  justify-content: space-between;
+}
+
+.form-close{
+  cursor: pointer;
+}
+
+.submit-button-parent{
+  display:flex;
+  justify-content: flex-end;
+  margin-top:5px;
+}
+
+.submit-button-parent button{
+  margin-left:10px;
+}

@@ -14,7 +14,7 @@ class UserList extends React.Component {
           name:"John"
         }
       ]
-    }
+    };
   }
 
   componentDidMount(){
@@ -24,7 +24,7 @@ class UserList extends React.Component {
   render() {
     return (
       <div>
-        {this.state.users.map((aUser)=>{
+        {{this.state.users.map((aUser)=>{
           return (
             <div>{aUser.name}</div>
           )
@@ -33,7 +33,6 @@ class UserList extends React.Component {
     )
   }
 }
-
 
 const domContainer = document.getElementById("react-container");
 ReactDOM.render(e(UserList), domContainer);

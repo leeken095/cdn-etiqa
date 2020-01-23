@@ -1,6 +1,16 @@
 {
-  "db": {
+  "dbMemory": {
     "name": "db",
     "connector": "memory"
+  },
+  "db": {
+    "host": "cluster0-dxw8e.gcp.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://user:admin@cluster0-ndpfo.gcp.mongodb.net/test?retryWrites=true&w=majority",
+    "database": "admin",
+    "password": "admin",
+    "name": "mongo",
+    "user": "user",
+    "connector": "mongodb"
   }
 }

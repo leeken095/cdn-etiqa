@@ -26,7 +26,7 @@ module.exports = function(server) { // Install a `/` route that returns server s
   server.use(router);
 };
 
-app.use('/', express.static('client'))
+app.use('/', express.static('dist'))
 
 
 // Bootstrap the application, configure models, datasources and middleware.
