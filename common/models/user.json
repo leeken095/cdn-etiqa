@@ -1,0 +1,29 @@
+{
+  "name": "user",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "skillsets": {
+      "type": "string"
+    },
+    "hobby": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
