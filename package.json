@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "webpack --watch & node .",
+    "start": "node .",
     "posttest": "npm run lint && nsp check",
     "build": "webpack --mode production"
   },
