@@ -5,7 +5,8 @@ import 'antd/dist/antd.css';
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
-const API_URL = "http://localhost:3000"
+// const API_URL = "http://localhost:3000"
+const API_URL = "https://cdn-etiqa.herokuapp.com"
 
 const columns = [
   {
